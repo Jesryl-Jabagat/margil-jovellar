@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bohol Trip</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">BOHOL TRIP</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destination">Destination</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#book-now">Book Now</a></li>
+                <li><a href="Sign Up.html">Login</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>"Tana, moadtu na kita"</h1>
+            <p>ENJOY YOUR TRAVEL WITH A SMILE.</p>
+            <div class="btn-container">
+                <a href="#book-now" class="btn">BOOK NOW</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destination" class="destination">
+        <h1>Explore Bohol's Top Destinations</h1>
+        <div class="destination-grid">
+            
+            <div class="destination-item">
+                <img src="tarsier.jpg" alt="Philippine Tarsier">
+                <h2>Philippine Tarsier</h2>
+                <p>Meet the world’s smallest primate, found only in the Philippines.</p>
+            </div>
+            <div class="destination-item">
+                <img src="panglao.jpg" alt="Panglao Island">
+                <h2>Panglao Island</h2>
+                <p>Beautiful white-sand beaches and great diving spots.</p>
+            </div>
+            <div class="destination-item">
+                <img src="loboc.png" alt="Loboc River">
+                <h2>Loboc River</h2>
+                <p>Take a scenic river cruise along the Loboc River.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h1>About Bohol Trip</h1>
+            <p>Welcome to <strong>Bohol Trip</strong>, your premier travel guide to explore the captivating beauty and vibrant culture of Bohol, Philippines!</p>
+            
+            <div class="about-section">
+                <h2>Our Mission</h2>
+                <p>We are dedicated to promoting eco-friendly travel, allowing you to experience the rich beauty of Bohol while preserving its natural wonders.</p>
+            </div>
+
+            
+
+            <div class="join-us">
+                <h2>Join Us On An Adventure</h2>
+                <p>Ready for a journey filled with beauty, adventure, and tranquility? Let’s explore the enchanting wonders of Bohol together.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="book-now" class="booking">
+        <h1>Book Your Trip Now</h1>
+        <p>Fill in the details below to reserve your unforgettable experience in Bohol!</p>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required min="1">
+            <label for="date">Date of Travel:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="message">Additional Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+            <button type="submit">Submit Booking</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bohol Trip. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
